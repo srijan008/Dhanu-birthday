@@ -1,5 +1,6 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import '../SmallLetter.css';
+import hbdAudio from '../assets/hbd.mp3';
 
 const SmallLetter = () => {
     // 1. State to control the letter's open/close status
@@ -8,6 +9,7 @@ const SmallLetter = () => {
     // 2. Ref to hold the main letter container DOM element
     // This is needed to manually add/remove the '--close' class for the animation timing
     const letterRef = useRef(null);
+    const audioRef = useRef(null);
 
     // --- Logic for Envelope Click (Toggle) ---
 
@@ -20,6 +22,9 @@ const SmallLetter = () => {
             // 1. Set the class for the closing animation
             letterElement.classList.add('small-rajib-letter--close');
             setIsOpen(false);
+            if (audioRef.current) {
+                audioRef.current.pause();
+            }
 
             // 2. Remove the closing class after the animation duration (600ms)
             setTimeout(() => {
@@ -32,6 +37,9 @@ const SmallLetter = () => {
             letterElement.classList.remove('small-rajib-letter--close');
             // 2. Set state to open (which adds 'small-rajib-letter--open')
             setIsOpen(true);
+            if (audioRef.current) {
+                audioRef.current.play().catch(e => console.log('Audio play blocked:', e));
+            }
         }
     };
 
@@ -45,6 +53,9 @@ const SmallLetter = () => {
         letterElement.classList.remove('small-rajib-letter--open');
         letterElement.classList.add('small-rajib-letter--close');
         setIsOpen(false); // Update state to reflect closed status
+        if (audioRef.current) {
+            audioRef.current.pause();
+        }
 
         // Remove the closing class after the animation duration (600ms)
         setTimeout(() => {
@@ -57,6 +68,7 @@ const SmallLetter = () => {
 
     return (
         <>
+            <audio ref={audioRef} src={hbdAudio} loop />
             <div
                 className={`small-rajib-letter ${letterStateClass}`}
                 ref={letterRef} // Attach the ref here
