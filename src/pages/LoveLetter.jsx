@@ -4,42 +4,42 @@ const LoveLetter = () => {
     const lettersData = [
         {
             id: 1,
-            name: "Rexon",
+            name: "Srijan",
             msg: "Wish you the happiest birthday",
         },
         {
             id: 2,
-            name: "Rexon",
+            name: "Srijan",
             msg: "One picture from you can change my whole day, my whole mood, my whole heartbeat.",
         },
         {
             id: 3,
-            name: "Rexon",
+            name: "Srijan",
             msg: "Even through screens and pixels, your laugh reaches me like sunlight through a window—warm, real, and impossible to forget.",
         },
         {
             id: 4,
-            name: "Rexon",
+            name: "Srijan",
             msg: "Every notification from you feels like a heartbeat whispering, I’m here, and I love you.",
         },
         {
             id: 5,
-            name: "Rexon",
+            name: "Srijan",
             msg: "Our messages might travel through wires, but every word you send lands straight in my heart.",
         },
         {
             id: 6,
-            name: "Rexon",
+            name: "Srijan",
             msg: "Ever since our we met, my heart knew where it wanted to stay— with you, in every soft moment, every smile, every quiet piece of forever.",
         },
         {
             id: 7,
-            name: "Rexon",
+            name: "Srijan",
             msg: " but you turned it into a memory my heart refuses to forget. Since then, every moment with you has felt softer, brighter, and filled with a kind of peace only you bring.",
         },
         {
             id: 8,
-            name: "Rexon",
+            name: "Srijan",
             msg: "Since our first conversation, you’ve been the quiet spark that changed my world, turning ordinary days into moments that feel beautifully meant to be.",
         },
     ];
