@@ -1,47 +1,43 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { Link } from "react-router";
 
 const LoveLetter = () => {
     const lettersData = [
         {
             id: 1,
-            name: "Srijan",
+            name: "bhaskar",
             msg: "Wish you the happiest birthday",
         },
         {
             id: 2,
-            name: "Srijan",
+            name: "bhaskar",
             msg: "One picture from you can change my whole day, my whole mood, my whole heartbeat.",
         },
         {
             id: 3,
-            name: "Srijan",
+            name: "bhaskar",
             msg: "Even through screens and pixels, your laugh reaches me like sunlight through a window—warm, real, and impossible to forget.",
         },
         {
             id: 4,
-            name: "Srijan",
+            name: "bhaskar",
             msg: "Every notification from you feels like a heartbeat whispering, I’m here, and I love you.",
         },
         {
             id: 5,
-            name: "Srijan",
+            name: "bhaskar",
             msg: "Our messages might travel through wires, but every word you send lands straight in my heart.",
         },
         {
             id: 6,
-            name: "Srijan",
+            name: "bhaskar",
             msg: "Ever since our we met, my heart knew where it wanted to stay— with you, in every soft moment, every smile, every quiet piece of forever.",
         },
         {
             id: 7,
-            name: "Srijan",
+            name: "bhaskar",
             msg: " but you turned it into a memory my heart refuses to forget. Since then, every moment with you has felt softer, brighter, and filled with a kind of peace only you bring.",
-        },
-        {
-            id: 8,
-            name: "Srijan",
-            msg: "Since our first conversation, you’ve been the quiet spark that changed my world, turning ordinary days into moments that feel beautifully meant to be.",
-        },
+        }
     ];
     const [openEnvelope, setOpenEnvelope] = useState(false);
     const [letters, setLetters] = useState([]);
@@ -114,6 +110,11 @@ const LoveLetter = () => {
 
     return (
         <main className='munna bg-[#8b0000] h-screen w-full overflow-hidden'>
+            <Link to="/" className="absolute top-4 right-4 z-[999] text-white hover:text-gray-300 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </Link>
             <section className="munna cssletter z-10">
                 <div className={`envelope ${openEnvelope ? "active" : ""}`}>
                     <button

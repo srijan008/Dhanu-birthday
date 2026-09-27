@@ -68,11 +68,16 @@ const BookCanvas = ({ active, setActive }) => {
 
                         {/* Swapping back to H2 to match the original CSS targeting */}
                         <div className="card2-message-text italic">
-                            <article style={{ marginBottom: '8px' }}>Happy Birthday, Dhanashri ❤️</article>
-                            <article style={{ marginBottom: '10px' }}>From the moment we met, something in my life shifted—like the universe quietly guiding me toward someone meant for me.You brought warmth into the parts of me I didn’t even know were cold, And you expanded my days with a dimension I can only call my own.</article>
-                            <article style={{ marginBottom: '10px' }}>On your birthday, I just want you to know this: I want you with me in every chapter, every storm, every sunshine, every tomorrow. No matter what comes, I’ll be on your side—always. I’ll choose you, protect you, stand with you, and love you in ways that remind you you’re never alone.</article>
-                            <article style={{ marginBottom: '10px' }}>You’re not just another year older today… <br />
-                                you’re the reason my life feels softer, brighter, and endlessly worth living. Happy Birthday.</article>
+                            <article style={{ marginBottom: '8px' }}>Hey Birthday Girl! 💗</article>
+                            <article style={{ marginBottom: '10px' }}>Happy Birthday to one of the most beautiful souls in my life! 🥳✨</article>
+                            <article style={{ marginBottom: '10px' }}>I don't say this often enough, but I'm genuinely so grateful that you came into my life. Somewhere between all our random conversations, stupid jokes, endless teasing and those moments when we somehow understand each other without saying much, you became someone incredibly special to me.</article>
+                            <article style={{ marginBottom: '10px' }}>And then there are our meet-ups 😂 — probably the most spontaneous thing about our friendship. No proper planning, no fixed schedule, sometimes just a random "milte hain?" and somehow, a little while later, we're actually sitting together. 😂 Honestly, I think that's what makes them even better. Some of the best memories aren't planned at all; they just happen. And with you, somehow those random plans always turn into moments worth remembering. ❤️</article>
+                            <article style={{ marginBottom: '10px' }}>Thank you for being the person I can share completely random things with and still know you'll be there when life isn't going so well.</article>
+                            <article style={{ marginBottom: '10px' }}>I hope this year gives you everything your heart has been quietly wishing for — lots of happiness, unforgettable memories, success, peace, adventures, and countless reasons to smile. You deserve days that make you excited to wake up and people who remind you how special you are.</article>
+                            <article style={{ marginBottom: '10px' }}>And no matter how old you get, please don't become too mature. 😂 We already have enough serious people in this world.</article>
+                            <article style={{ marginBottom: '10px' }}>Stay exactly the wonderful, crazy, kind-hearted person you are. I'm really lucky to call you my favourite spontaneous plan. ❤️</article>
+                            <article style={{ marginBottom: '10px' }}>Happy Birthday once again! 🎂✨<br />May this be your happiest year yet.</article>
+                            <article style={{ marginBottom: '10px' }}>— Your forever unplanned plan 🤍</article>
                         </div>
 
                         <div className="card2-decoration"></div> {/* Decoration */}
@@ -91,7 +96,7 @@ const BookCanvas = ({ active, setActive }) => {
                         <div className="confetti-dots"></div>
 
                         <p className="signature">
-                            Your Best Friend, Srijan
+                            Your Best Friend, bhaskar
                         </p>
                     </div>
                 </div>
