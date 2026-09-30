@@ -106,7 +106,7 @@ const SmallLetter = () => {
                             onClick={handleCloseLetter} // Attach the close handler
                         >
                         </div>
-                        <p>Happy Birthday to the person who somehow manages to be cute, crazy, and annoying all at once! 🥳✨<br /><br />Thanks for the random talks, unnecessary teasing, and last-minute plans that somehow become unforgettable. 😂<br /><br />Don’t change… actually, maybe improve a little. 😌😂<br /><br />Stay crazy, keep smiling, and have the best birthday! 🤍</p>
+                        <p>Happy Birthday to the person who somehow manages to be cute, crazy all at once! 🥳✨<br /><br />Thanks for the random talks, unnecessary teasing, and  crazy plans that somehow become unforgettable. 😂<br /><br />Don’t change… actually, maybe improve a little. 😌😂<br /><br />Stay crazy, keep smiling, and have the best birthday! 🤍</p>
                     </div>
 
                     {/* --- NEW SVG DIARY PAGE DECORATION --- */}

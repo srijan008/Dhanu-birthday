@@ -110,6 +110,7 @@ const OpeningAnimation = ({ animateOut }) => {
           <div className="MUNNA cakeText">
             <h1 className="MUNNA cakeText-title">Happy 20th Birthday!</h1>
             <div className="MUNNA cakeText-name">Dhanashri <div className="MUNNA cakeText-kitty-bow"></div></div>
+            <p style={{ textAlign: 'center', color: '#fff', marginTop: '10px', fontSize: '14px', letterSpacing: '1px' }}>Open in laptop please</p>
           </div>
 
 
