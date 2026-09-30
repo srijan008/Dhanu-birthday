@@ -29,7 +29,7 @@ const SmallLetter = () => {
             playMusic();
             document.removeEventListener('click', onInteract);
         };
-        
+
         document.addEventListener('click', onInteract);
 
         return () => {
@@ -106,7 +106,7 @@ const SmallLetter = () => {
                             onClick={handleCloseLetter} // Attach the close handler
                         >
                         </div>
-                        <p>Hey Birthday Girl! 💗<br /><br />Happy Birthday to one of the most beautiful souls I know! 🥳✨<br /><br />Thank you for all our random conversations, endless teasing, and for being my favorite spontaneous plan. 😂 Keep being the wonderful, crazy person you are.<br /><br />— Your forever unplanned plan 🤍</p>
+                        <p>Happy Birthday to the person who somehow manages to be cute, crazy, and annoying all at once! 🥳✨<br /><br />Thanks for the random talks, unnecessary teasing, and last-minute plans that somehow become unforgettable. 😂<br /><br />Don’t change… actually, maybe improve a little. 😌😂<br /><br />Stay crazy, keep smiling, and have the best birthday! 🤍</p>
                     </div>
 
                     {/* --- NEW SVG DIARY PAGE DECORATION --- */}
